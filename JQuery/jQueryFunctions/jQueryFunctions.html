@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="jQueryFunctions.css">
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+
+    <script>
+        $(document).ready(function(){
+            //hide
+            $('#hidden').click(function(){$('#hidden').hide();});
+
+            //show
+            $('#show').click(function(){$('#hidden').show();});
+
+            //toggle
+            $('#toggle').click(function(){$('p').toggle();});
+
+            //slidedown
+            $('#sldown').click(function(){$('img').slideDown();});
+
+            //slideup
+            $('#slup').click(function(){$('img').slideUp();});
+
+            //slidetToggle
+            $('#slide').click(function(){$('#slidetoggle').find("h2").slideToggle();});
+
+            //fadein
+            $('#fin').click(function() {$('img').fadeIn();});
+
+            //fadeout
+
+            $('#fout').click(function() {$('img').fadeOut();});
+
+            //addClass
+            $('#class').click(function(){$('#class').addClass('mystyle');});
+
+            //before
+            $('#antes').click(function(){$(this).before("This is how before works!");});
+
+            //after
+            $('#despues').click(function(){$(this).after("This is how after works!");});
+
+            //append
+            $('#anexar').click(function(){$('#append').find("h2").after("<h2>Hola<h2>");});
+
+            //text
+            $('#texto').click(function(){$('p').text('Texto is Spanish for text');});
+
+            //HTML
+            $('#HTML').click(function(){$('h2').html('Hello HTML!!!!');});
+
+
+           
+
+
+
+
+
+ });
+
+    </script>
+</head>
+    <body>
+
+        <div id="hide">
+            <h2>HIDE</h2>
+            <input type="button" value="HIDE" id="hidden">
+            <p>click on button to HIDE the button!!</p>
+        </div>
+
+
+        <div id="show">
+            <h2>SHOW</h2>
+            <input type="button" value="SHOW">
+            <p>Click on the button to SHOW the "hide" button again</p>
+        </div>
+        
+
+        <div id="toggle">
+            <h2>TOGGLE</h2>
+            <input type="button" value="TOGGLE">
+            <p>click on the button to TOGGLE all the paragraphs.</p>
+        </div>
+            
+
+        <div id="slideup">
+            <h2>SLIDEUP</h2>
+            <input type="button" id="slup" value="SLIDEUP">
+            <img src="2A.png" alt="">
+            <p>click on the button to SLIDEUP</p>
+        </div>
+
+
+        <div id="slidedown">
+            <h2>SLIDEDOWN</h2>
+            <input type="button" id="sldown" value="SLIDEDOWN">
+            <img src="2A.png" alt="">
+            <p>click on button to SLIDEDOWN</p>
+        </div>
+
+            
+        <div id="slidetoggle">
+            <h2>SLIDETOGGLE</h2>
+            <input type="button" id="slide" value="SLIDETOGGLE">
+            <p>click on button to SLIDETOGGLE</p>
+        </div>
+
+
+        <div id="fadeout">
+            <h2>FADEOUT</h2>
+            <input type="button" id="fout" value="FADEOUT">
+            <img src="2A.png" alt="">
+            <p>click on button to FADEOUT all the images</p>
+           
+        </div>
+
+    
+        <div id="fadein">
+            <h2>FADEIN</h2>
+            <input type="button" id="fin" value="FADEIN">
+            <img src="2A.png" alt="">
+            <p>click on the button to FADEIN all the previous images</p>
+        </div>
+
+
+        <div id="addclass">
+            <h2>ADDCLASS</h2>
+            <input type="button" id="class" value="ADDCLASS">
+            <p>click on the button to ADDCLASS to the button</p>
+        </div>
+
+            
+        <div id="before">
+            <h2>BEFORE</h2>
+            <input type="button" id="antes" value="BEFORE">
+            <p>click on the button to place a message before the button</p>
+        </div>
+
+
+        <div id="after">
+            <h2>AFTER</h2>
+            <input type="button" id="despues" value="AFTER">
+            <p>click on button to see AFTER in action</p>
+        </div>
+
+        <div id="append">
+            <h2>APPEND</h2>
+            <input type="button" id="anexar" value="APPEND">
+            <p>click on button to APPEND</p>
+        </div>
+
+
+        <div id="html">
+            <h2>HTML</h2>
+            <input type="button" id="HTML" value="HTML">
+            <p>click on button to HTML it up</p>
+        </div>
+
+
+        <div id="attr">
+            <h2>ATTR</h2>
+            <input type="button" id="atributo" placeholder="button" value="ATTR">
+            <p>click on button to see the ATTRIBUTE</p>
+        </div>
+
+
+        <div id="val">
+            <h2>VAL</h2>
+            <input type="button" value="VAL">
+            <p>click on the button to SHOW you the value</p>
+        </div>
+
+            
+        <div id="text">
+            <h2>TEXT</h2>
+            <input type="button" id="texto" value="TEXT">
+            <p>click on button to add a new TEXT</p>
+        </div>
+    
+
+    
+    </body>
+</html>

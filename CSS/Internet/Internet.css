@@ -1,0 +1,10 @@
+body *{
+outline: 1px solid black;
+}
+
+#container{
+    width: 970px;
+    height: 800px;
+    background-color: cadetblue;
+    margin: 0px auto;
+}

@@ -1,0 +1,25 @@
+#container{
+    width: 820px;
+    height: 820px;
+    background-color: black;
+    margin: 0px auto;
+    padding: 25px;
+
+}
+
+img{
+    width: 230px;
+    height: 230px;
+    padding: 20px;
+    align-items: center;
+}
+
+#reset_button{
+	display: block;
+	height: 20px;
+	width: 80px;
+	margin-left: 10px;
+    background-color: rgb(231, 247, 10);
+    color: black;
+    font-weight: bold;
+	

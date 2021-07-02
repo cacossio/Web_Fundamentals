@@ -1,0 +1,30 @@
+img{
+    margin: 30px;
+    height: auto;
+    width: auto;
+    font-weight: normal;
+}
+ 
+.nav {
+    width: auto;
+    height: 200px;
+    background-color: rgb(61, 131, 221);
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+}
+
+li, a, ul, h1{
+    width: auto;
+    color: white;
+    display: inline-flex;
+    align-items:center;
+    justify-content: space-between;
+    text-decoration: none;
+    margin:15px;
+    font-family:'Montserrat',sans-serif;
+}
+a{
+    font-weight: bold;
+}
+    

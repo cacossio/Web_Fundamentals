@@ -1,0 +1,138 @@
+#container{
+    width: 970px;
+    height: 740px;
+    background-color:rgb(135, 178, 219);
+}
+
+#hide{
+    width: 600px;
+    height: 120px;
+    background-color: coral;
+    margin: 0px auto;
+    
+}
+
+#show{
+    width: 600px;
+    height: 120px;
+    background-color: coral;
+    margin: 0px auto;
+}
+
+#toggle {
+    width: 600px;
+    height: 120px;
+    background-color: coral;
+    margin: 0px auto;
+    }
+    
+#slidedown{
+    width: 600px;
+    height: 120px;
+    background-color: coral;
+    margin: 0px auto;
+}
+
+#slideup{
+    width: 600px;
+    height: 120px;
+    background-color: coral;
+    margin: 0px auto;
+}
+
+#slidetoggle {
+    width: 600px;
+    height: 120px;
+    background-color: coral;
+    margin: 0px auto;
+}
+    
+#fadein{
+    width: 600px;
+    height: 120px;
+    background-color: coral;
+    margin: 0px auto;
+}
+
+#fadeout{
+    width: 600px;
+    height: 120px;
+    background-color: coral;
+    margin: 0px auto;
+    vertical-align: top;
+}
+
+img{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    right: 30%;
+    margin: -30px 10px -10px 230px;
+}
+
+#addclass{
+    width: 600px;
+    height: 120px;
+    background-color: coral;
+    margin: 0px auto;
+}
+    
+#before{
+    width: 600px;
+    height: 120px;
+    background-color: coral;
+    margin: 0px auto;
+}
+
+#after{
+    width: 600px;
+    height: 120px;
+    background-color: coral;
+    margin: 0px auto;
+}
+
+#append {
+    width: 600px;
+    height: 120px;
+    background-color: coral;
+    margin: 0px auto;
+    }
+    
+#html{
+    width: 600px;
+    height: 120px;
+    background-color: coral;
+    margin: 0px auto;
+}
+
+#attr{
+    width: 600px;
+    height: 120px;
+    background-color: coral;
+    margin: 0px auto;
+}
+
+#val {
+    width: 600px;
+    height: 120px;
+    background-color: coral;
+    margin: 0px auto;
+    }
+    
+#text{
+    width: 600px;
+    height: 120px;
+    background-color: coral;
+    margin: 0px auto;
+}
+
+#block1 {
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+.mystyle{
+    background-color: yellow;
+    font-size: 15px;
+}

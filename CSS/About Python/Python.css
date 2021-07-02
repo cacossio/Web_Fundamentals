@@ -1,0 +1,226 @@
+
+#container{
+    width: 970px;
+    height: 740px;
+    background-color:rgb(51, 97, 139);
+    margin: 0px auto;
+}
+
+#top{
+    height: 100px;
+}
+
+img{
+    height: 100px;
+    margin: 0px 20px;
+}
+
+.search{
+    display: inline-block;
+    align-items: center;
+    margin: 0px 0px 0px 300px;
+    vertical-align: top;
+}
+
+.search p{
+    color: white;
+    margin: 7px 0px 5px 0px;
+    padding: 5px 0px 0px 66px;
+}
+
+.search a {
+    color: yellow;
+    font-weight: normal;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.search form {
+    height: 30px;
+    width: 240px;
+    background-color:rgb(106 96 96);
+    border-radius: 10px;
+    padding: 10px 0px 10px 20px;
+    box-shadow: rgb(0 0 0 / 46%) 2.4px 2.4px 3.2px;
+}
+
+.search form input.go{
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(59, 114, 197);
+    border-radius: 5px;
+    width: 50px;
+    color: white;
+}
+
+#tabs{
+    height: 50px;
+    background-color: rgb(59, 114, 197);
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin:0px 40px 10px 60px;
+    border-radius: 10px;
+    box-shadow: rgb(0 0 0 / 46%) 2.4px 2.4px 3.2px
+}
+
+
+#tabs ul li{
+    display: inline-flex;
+    margin: 0px 15px;
+
+}
+
+#tabs ul li a{
+   color: white;
+   text-decoration: none;
+   font-size: 20px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#main{
+    height: 340px;
+    background-color: wheat;
+    display: flex;
+    align-items: center;
+    background-color:rgb(51, 97, 139);
+} 
+
+.menu{
+    height: 300px;
+    width: 200px;
+    background-color:rgb(51, 97, 139);
+    display: inline-block;
+    margin: 0px 65px;
+    text-align: center;
+}
+
+.menu ul li{
+    padding: 6px 0px;
+    list-style: none;
+    
+}
+
+.arrow li:before {
+    content: "»";
+    color: yellow;
+    height: 5px;
+    width: 5px;
+  }
+
+.menu ul li a{
+   color: white;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: normal;
+   font-size: 16px;
+}
+
+
+.summary{
+    height: 300px;
+    display: inline-block;
+    text-align: center;
+}
+
+.summary p{
+    height: 70px;
+    width: 545px;
+    display: inline-block;
+    margin: 0px 20px 0px 0px;
+    font-size: 11px;
+    background-color: rgb(51, 97, 139);
+    color: white;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.summary h2{
+    height: 200px;
+    width: 335px;
+    font-size: 18px;
+    margin: 0px auto;
+    color: rgb(232 225 19);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    line-height: 35px;
+}
+
+.summary h2 span{
+    color: white;
+    font-style: normal;
+    font-size: 16px;
+}
+
+
+#middle{
+    height: 215px;;
+    background-color: white;
+    padding: 0px 10px;
+}
+
+#middle p{
+    padding: 0px 15px 0px 10px;
+}
+
+#middle .box{
+    display: inline-block;
+    width: 330px;
+    background-color:white;
+    text-align: center;
+    vertical-align: top;
+    margin: 10px 80px 0px 50px;
+}
+
+.box h3{
+    font-size: 13px;
+}
+
+.box{
+    border-top: 5px solid rgb(51, 97, 139);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    padding: px 20px 0px 20px;
+}
+
+.box span{
+    font-size: 8px;
+    color: rgb(119 170 216);
+}
+
+.box ul li{
+    list-style-type: square;
+    line-height: 17px;
+    color:rgb(51, 97, 139) ;
+    font-weight: bold;
+}
+
+#bottom{
+    height: 30px;
+    background-color:rgb(51, 97, 139);
+    display: flexbox;
+    text-align: center;
+    justify-content: space-around;
+    color: rgb(119 170 216);
+    padding: 35px;
+    background-image: linear-gradient(rgb(51, 97, 139), rgb(255 255 255 / 18%));
+}
+
+#bottom .options a{
+    color:rgb(119 170 216);
+    margin: 18px 10px 10px 20px ;
+    text-decoration: none;
+    padding: 0px 20px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+#bottom p{
+    font-size: 14px;
+    margin: 15px 0px 0px 0px;;
+}
+
+
+
+

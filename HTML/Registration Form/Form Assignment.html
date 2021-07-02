@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <form action="process.php" method="post">
+        <p>My Registration Form</p>
+
+            <label for="first_name">First Name</label>
+            <input type="text" name="first_name" id="first_name"><br><br>
+        
+            <label for="last_name">Last Name</label>
+            <input type="text" name="last_name" id="last_name"><br><br>         
+       
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email"><br><br>
+        
+            <label for="password">Password</label>
+            <input type="password" name="Password" id="password"><br><br>
+        
+            <label for="PW_confirm">PW Confirmation</label>
+            <input type="password" name="password_confirmation" id="PW_confirm"><br><br>
+        
+            <label for="date">Date</label>
+            <input type="date" name="date" id="date"><br><br>
+        
+        <p>Select Gender</p>
+        
+            <label for="male">Male</label>
+            <input type="radio" name="male" id="male">
+            <label for="female">Female</label>
+            <input type="radio" name="female" id="female">
+            <label for="other">Other</label>
+            <input type="radio" name="other" id="other"><br><br>
+        
+        <p>Favorite Season</p>
+            <select name="Favorite_Season">
+            <option value="Spring">Spring</option>
+            <option value="Summer">Summer</option>
+            <option value="Fall">Fall</option>
+            <option value="Winter">Winter</option>
+           </select>
+        
+        <p>About Yourself</p> 
+           <textarea name="About Yourself"></textarea><br>
+           <input type="submit" value="Submit">
+
+            
+    </form>
+</body>
+</html>
