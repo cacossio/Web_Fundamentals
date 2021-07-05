@@ -1,0 +1,19 @@
+C:\Users\Carlos>cd\users\Carlos\desktop 
+
+	C:\Users\Carlos\Desktop> mkdir test 
+
+		C:\Users\Carlos\Desktop\test> cd.>index.html 
+
+		C:\Users\Carlos\Desktop\test> cd.>style.css 
+
+		C:\Users\Carlos\Desktop\test> cd.>commands.txt 
+	
+		C:\Users\Carlos\Desktop\test> xcopy index.html index_2.html 
+
+	C:\Users\Carlos\Desktop>mkdir destination 
+
+		C:\Users\Carlos\Desktop\test>move index_2.html ..//destination 
+
+		C:\Users\Carlos\Desktop\test>rm style.css 
+	
+		C:\Users\Carlos\Desktop>rmdir destination 
